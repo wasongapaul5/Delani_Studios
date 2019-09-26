@@ -1,0 +1,84 @@
+h1{
+    text-align:center;
+    padding:100px;
+    font-size: 70px;
+}
+
+
+body{
+    text-align:center;
+}
+
+#sec-1{
+    font-family: verdana;
+    height:97vh;
+    color:#fff;
+    background-attachment: fixed;
+    background-image:url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/h_img.jpg?raw=true");
+    background-size: cover;
+}
+
+.middle{
+    position: absolute;
+    font-weight: bold;
+    background:white;
+}
+
+#sec-5{
+    background-image:url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/c_image.jpg?raw=true");
+    background-repeat: no-repeat;
+    margin-top:10%;
+    height: 80vh;
+}
+
+.col-md-12{
+    padding:10px;
+}
+
+#del{
+    padding-top: 20px;
+}
+
+#sec-3{
+    background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/s_image.jpg?raw=true");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+p{
+    font-size: 30px;
+}
+.show1,.show2,.show3{
+    display:none;
+}
+
+#sec4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+
+form{
+    opacity:0.55;
+}
+
+#comment{
+    text-align:center;
+    width:400px;
+    height:200px;
+}
+
+textarea{
+    display: inline;
+    padding:20px;
+}
+
+.form-control{
+    padding:5px;
+}
+
