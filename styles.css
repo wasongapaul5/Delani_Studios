@@ -1,42 +1,51 @@
+ *{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+} 
+
+body{
+    text-align: center;
+}
+
 h1{
     text-align:center;
-    padding:100px;
     font-size: 70px;
 }
 
-
-body{
-    text-align:center;
+h2,h4{
+    font-size: 30px;
+    text-align: center;
+}
+.row{
+    text-align: center;
 }
 
+.col-md-6{
+    text-align: center;
+   display:inline;
+}
+footer{
+    margin-top: 5%;
+    text-align: center;
+}
+h4{
+    padding:10px;
+    color:white;
+}
+body{
+    text-align:center;
+    overflow-x: hidden;
+} 
 #sec-1{
     font-family: verdana;
-    height:97vh;
+    height:100vh;
+    margin-bottom: 0;
+    text-align: center;
     color:#fff;
     background-attachment: fixed;
     background-image:url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/h_img.jpg?raw=true");
     background-size: cover;
-}
-
-.middle{
-    position: absolute;
-    font-weight: bold;
-    background:white;
-}
-
-#sec-5{
-    background-image:url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/c_image.jpg?raw=true");
-    background-repeat: no-repeat;
-    margin-top:10%;
-    height: 80vh;
-}
-
-.col-md-12{
-    padding:10px;
-}
-
-#del{
-    padding-top: 20px;
 }
 
 #sec-3{
@@ -44,41 +53,114 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     color:white;
+    height:30vh;
     font-size: 30px;
     margin-top: 5px;
+    padding:40px;
+    text-align: center;
+}
+
+.img-fluid{
+    padding:30px;
+}
+
+#sec-4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5px;
+
+}
+
+
+#sec-5{
+    background-image:url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/c_image.jpg?raw=true");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:10%;
+    height: 80vh; 
+    padding:50px;
+    width: 600%;
+}  
+
+
+
+.col-md-3{
+    float:left;
+}
+
+
+.col-md-12{
+    margin:10px 0;
+    padding: 5vh;
+    font-size: 30px;
+ } 
+
+.middle{
+    position: absolute;
+    font-weight: bold;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+    opacity:0.55%;
+    background:white;
+}
+
+ .show1,.show2,.show0{
+    display: none;
+}
+
+
+#del{
+    padding-top: 20px;
 }
 
 p{
     font-size: 30px;
 }
-.show1,.show2,.show3{
-    display:none;
+
+.text-center{
+    color:white;
 }
-
-#sec4{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 5px;
-}
-
-
-form{
-    opacity:0.55;
-}
-
 #comment{
     text-align:center;
-    width:400px;
-    height:200px;
+    width:900px;
+    height:230px;
 }
 
-textarea{
+textarea,input{
     display: inline;
-    padding:20px;
+    background-color: #ffffff00;
+    padding:20px; 
+    font-weight: bolder;
+    
 }
+
 
 .form-control{
-    padding:5px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}  
+
+ .container{
+     position: relative;
+ }
+
+
+
+.card{
+    
+   display:inline;
+   border-spacing:30px;
+   
 }
+
+
+
+ .card:hover{
+     box-shadow: 0 8px 16px 0 rgba(0,0,0.2);
+ } 
 
